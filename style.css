@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    min-height: 80vh;
+}
+
+div {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.square {
+    flex-direction: row;
+}
