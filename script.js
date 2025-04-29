@@ -39,8 +39,6 @@ let createGrid = (grid, size) => {
 
 let pixelInitializer = () => {
     const pixels = document.querySelectorAll('.square, .hoveredsquare');
-    // pixels.classList.remove('hoveredsquare');
-    // pixels.classList.add('square');
 
     pixels.forEach(div => div.addEventListener('mouseover', (e) => {
         div.classList.remove('square');
